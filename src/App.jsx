@@ -4,11 +4,13 @@ import Services from './components/Services';
 import Packages from './components/Packages';
 import About from './components/About';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
     <div className="App">
       <Hero />
+      <Gallery />
       <Services />
       <Packages />
       <About />
